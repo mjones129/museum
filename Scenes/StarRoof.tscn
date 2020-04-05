@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Stars.material" type="Material" id=1]
+[ext_resource path="res://Assets/StarRoof.dae" type="PackedScene" id=2]
+
+[node name="StarRoof" instance=ExtResource( 2 )]
+
+[node name="Cylinder" parent="." index="0"]
+transform = Transform( 1.24787e-07, 1.65285, 0, -1.65285, 1.24787e-07, 0, 0, 0, 1.65285, 3.90995, -0.109268, 0.645124 )
+material/0 = ExtResource( 1 )
